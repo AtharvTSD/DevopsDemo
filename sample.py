@@ -22,3 +22,11 @@ print("Sum:", sum(numbers))
 # Sort list in descending order
 numbers.sort(reverse=True)
 print("Descending Order:", numbers)
+
+# Additional list operations
+fruits = ["Apple", "Banana", "Mango"]
+
+fruits.append("Orange")
+print("Updated fruits:", fruits)
+
+print("Total fruits:", len(fruits))
